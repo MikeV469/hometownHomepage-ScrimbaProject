@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#1766DC, #E5EFE6);
+}
+
+/* HEADER SECTION */
+
+#header {
+    background-image: url("images/Breckenridge-night.jpeg");
+    height: 600px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+h1 {
+    
+    display: block;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding: 60px 18px;
+    color: #E5EFE6;
+    text-shadow: 2px 2px 3px black;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 30px 18px;
+    color: #E5EFE6;
+    text-shadow: 2px 2px 3px black;
+    font-size: 22px;
+}
+
+/* ATTRACTIONS SECTION */
+
+#attractions-container {
+    background-color: #E5EFE6;
+    height: 400px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#activities {
+    max-width: 1000px;
+    display: flex; 
+}
+
+.activities-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;;
+}
+
+.top-attractions {
+    text-align: center;
+    font-size: 24px;
+    color: #3681C5;
+    margin: 20px;
+    padding: 16px 24px;
+}
+
+.sub-heading-activities:hover {
+    color: #C07346;
+    cursor: not-allowed;
+}
+
+
+.skiing, .hiking, .dining {
+    max-width: 300px;
+    align-items: center;     
+    text-align: center;    
+}
+
+.sub-heading-activities, .sub-heading-para {
+    padding: 8px;
+    color: #3681C5
+}
+
+/* GUIDE SECTION */
+
+#guide {
+    max-width: 700px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #f7c59f;
+    color: #004e89;
+    margin-top: 32px;
+}
+
+.guide-title {
+    font-size: 24px;
+    padding: 12px;
+}
+
+.guide-para, .guide-name {
+    padding: 12px;
+}
+
+.guide-pic {
+    width: 300px;
+    height: 300px;
+    padding: 16px;
+    align-items: center;
+}
+
+.guide-info {
+    display: flex;       
+    flex-direction: column;  
+    justify-content: space-around;
+    text-align: center;
+    align-items: center; 
+    padding: 14px;
+}
